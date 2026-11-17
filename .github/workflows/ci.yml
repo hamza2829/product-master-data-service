@@ -14,6 +14,20 @@ jobs:
     name: Build and verify (Java 21)
     runs-on: ubuntu-24.04
     timeout-minutes: 20
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_DB: catalog
+          POSTGRES_USER: catalog
+          POSTGRES_PASSWORD: catalog_ci
+        ports:
+          - 5432/tcp
+        options: >-
+          --health-cmd "pg_isready -U catalog -d catalog"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 10
     steps:
       - uses: actions/checkout@v6
         with:
@@ -25,6 +39,33 @@ jobs:
           cache: maven
       - name: Check style, test and package
         run: mvn -B -ntp -Pci clean verify
+      - name: Generate the synthetic inputs
+        run: |
+          mvn -B -ntp -Pci exec:java@generate-data
+          if [[ -d data ]]; then
+            diff -r data target/demo-data
+          fi
+      - name: Save the exact inputs used by this run
+        uses: actions/upload-artifact@v6
+        with:
+          name: synthetic-inputs
+          path: target/demo-data/
+          if-no-files-found: error
+      - name: Run the packaged service and exercise every input
+        env:
+          DATABASE_URL: jdbc:postgresql://127.0.0.1:${{ job.services.postgres.ports[5432] }}/catalog
+          DATABASE_USER: catalog
+          DATABASE_PASSWORD: catalog_ci
+        run: |
+          mkdir -p target/demo
+          java -jar target/product-master-data-service.jar > target/demo/service.log 2>&1 &
+          service_pid=$!
+          trap 'kill "$service_pid" 2>/dev/null || true' EXIT
+          if ! mvn -B -ntp -Pci exec:java@demo; then
+            tail -n 30 target/demo/service.log
+            exit 1
+          fi
+          cat target/demo/summary.md >> "$GITHUB_STEP_SUMMARY"
       - name: Upload coverage and test reports
         if: always()
         uses: actions/upload-artifact@v6
@@ -34,4 +75,11 @@ jobs:
             target/site/jacoco/
             target/surefire-reports/TEST-*.xml
             target/failsafe-reports/TEST-*.xml
+          if-no-files-found: warn
+      - name: Upload import report, Prometheus scrape and service logs
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: import-report
+          path: target/demo/
           if-no-files-found: warn
