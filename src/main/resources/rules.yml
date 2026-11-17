@@ -1,0 +1,62 @@
+catalog:
+  rules:
+    article-pattern: '^IND-[0-9]{6}$'
+    protection-class-pattern: '^IP[0-6][0-9]$'
+    required-fields: [ARTICLE_NUMBER, NAME, VOLTAGE, CURRENT, WIDTH, HEIGHT, DEPTH, PROTECTION_CLASS,
+                      MATERIAL, UNIT, CATEGORY, STATUS, PRICE]
+    column-aliases:
+      ARTICLE_NUMBER: [articleNumber, article_no, sku, partCode]
+      NAME: [name, product_name, description, label]
+      VOLTAGE: [voltage, rated_voltage, U]
+      CURRENT: [current, rated_current, I]
+      WIDTH: [width, width_mm, W]
+      HEIGHT: [height, height_mm, H]
+      DEPTH: [depth, depth_mm, D]
+      PROTECTION_CLASS: [protectionClass, ip_rating, ingress]
+      MATERIAL: [material, housing, bodyMaterial]
+      UNIT: [unit, uom, measure]
+      CATEGORY: [category, family, productGroup]
+      STATUS: [status, lifecycle, lifeCycleState]
+      PRICE: [price, price_eur, unitPrice]
+    measurement-units:
+      VOLTAGE: {v: 1, kv: 1000}
+      CURRENT: {a: 1, ma: 0.001}
+      WIDTH: {mm: 1, cm: 10}
+      HEIGHT: {mm: 1, cm: 10}
+      DEPTH: {mm: 1, cm: 10}
+      PRICE: {eur: 1, "[€]": 1}
+    ranges:
+      VOLTAGE: {min: 0, max: 1500}
+      CURRENT: {min: 0, max: 250}
+      WIDTH: {min: 0.1, max: 5000}
+      HEIGHT: {min: 0.1, max: 5000}
+      DEPTH: {min: 0.1, max: 5000}
+      PRICE: {min: 0, max: 100000}
+    unit-aliases: {ea: EA, pcs: EA, piece: EA, m: M, metre: M}
+    status-aliases: {active: ACTIVE, live: ACTIVE, phaseout: PHASE_OUT, eol: PHASE_OUT, discontinued: DISCONTINUED,
+                     retired: DISCONTINUED}
+    category-aliases:
+      terminalblock: terminal-blocks
+      terminalblocks: terminal-blocks
+      tb: terminal-blocks
+      connector: connectors
+      connectors: connectors
+      conn: connectors
+      powersupply: power-supplies
+      powersupplies: power-supplies
+      psu: power-supplies
+      cable: cables
+      cables: cables
+      relay: relays
+      relays: relays
+    category-terms:
+      terminal-blocks: [terminal block]
+      connectors: [connector]
+      power-supplies: [power supply]
+      cables: [cable]
+      relays: [relay]
+    lifecycle-transitions:
+      ACTIVE: [PHASE_OUT, DISCONTINUED]
+      PHASE_OUT: [DISCONTINUED]
+      DISCONTINUED: []
+    reject-duplicates: true
