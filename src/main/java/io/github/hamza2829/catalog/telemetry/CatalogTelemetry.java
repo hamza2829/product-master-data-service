@@ -23,7 +23,8 @@ public class CatalogTelemetry {
     public void row(String operation, String outcome, RejectionCode rejection) {
         registry.counter("catalog.records.processed", "operation", operation, "outcome", outcome).increment();
         if (rejection != null) {
-            registry.counter("catalog.records.rejected", "operation", operation, "reason", rejection.name()).increment();
+            registry.counter("catalog.records.rejected", "operation", operation, "reason", rejection.name())
+                    .increment();
         }
     }
 
