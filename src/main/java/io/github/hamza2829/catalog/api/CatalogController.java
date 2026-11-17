@@ -11,6 +11,7 @@ import io.github.hamza2829.catalog.model.ProductData;
 import io.github.hamza2829.catalog.model.RejectionCode;
 import io.github.hamza2829.catalog.persistence.CatalogQueries;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.Size;
@@ -41,6 +42,8 @@ public class CatalogController {
     }
 
     @Operation(summary = "Import a CSV, JSON or XML file, or return its existing report")
+    @ApiResponse(responseCode = "201", description = "Import completed", useReturnTypeSchema = true)
+    @ApiResponse(responseCode = "200", description = "Existing report returned", useReturnTypeSchema = true)
     @PostMapping(path = "/imports", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     public ResponseEntity<ImportReport> upload(@RequestPart("file") MultipartFile file) throws IOException {
         ImportReport report = imports.importFile(file.getOriginalFilename(), file.getBytes());

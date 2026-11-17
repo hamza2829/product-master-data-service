@@ -60,7 +60,9 @@ public final class DemoRun {
         verifyMetrics(metrics, totals, files.size());
         verifyRejection();
         JsonNode paths = getJson("/v3/api-docs").path("paths");
-        require(paths.has(API + "/imports") && paths.has(API + "/rejections/{id}/retry"), "OpenAPI paths missing");
+        JsonNode importResponses = paths.path(API + "/imports").path("post").path("responses");
+        require(importResponses.has("201") && importResponses.has("200"), "OpenAPI import responses missing");
+        require(paths.has(API + "/rejections/{id}/retry"), "OpenAPI retry path missing");
         verifyLogCorrelation();
 
         CiResults checks = CiResults.read();
