@@ -1,0 +1,177 @@
+article_no,product_name,voltage,current,width_mm,height_mm,depth_mm,ip_rating,housing,uom,family,lifecycle,price_eur
+IND-000001,,24 V,45 A,55 mm,215 mm,152 mm,IP54," polyamide ",pcs,,ACTIVE,325.38 EUR
+IND-000001," Alder Terminal Block 1 ",24 V,45 A,55 mm,215 mm,152 mm,IP54," polyamide ",pcs,,ACTIVE,325.38 EUR
+IND-000002," Birch Connector 2 ",230 V,58 A,"5,3 cm",145 mm,94 mm," IP65 "," Tinned Copper ",piece,," live ","24,73 EUR"
+IND-000003," Cedar Power Supply 3 ","0,048 kV",5 A,21 mm,"17,4 cm",137 mm,ip20,aluminium,ea,PSU,ACTIVE,770.44 EUR
+" ind-000004 "," Elm Cable 4 ",24 V,28 A,"7,2 cm",191 mm,"13,4 cm",IP54," PVC ",metre,," live ","360,80 EUR"
+IND-000005," Rowan Relay 5 ",24 V,74000 mA,67 mm,136 mm,109 mm," IP65 "," Stainless Steel ",pcs,,ACTIVE,641.58 EUR
+IND-000006," Alder Terminal Block 6 ","1,000 kV",66 A,"4,6 cm","6,1 cm",129 mm,ip20," polyamide ",pcs,TB," live ","99,78 EUR"
+IND-000007," Birch Connector 7 ",400 V,8 A,70 mm,87 mm,29 mm,IP54," Tinned Copper ",piece,,ACTIVE,27.98 EUR
+" ind-000008 "," Cedar Power Supply 8 ",400 V,64 A,"10,2 cm",192 mm,"10,2 cm"," IP65 ",aluminium,ea,," live ","891,24 EUR"
+IND-000009," Elm Cable 9 ","0,048 kV",19 A,75 mm,"4,6 cm",151 mm,ip20," PVC ",metre,Cable,ACTIVE,270.51 EUR
+IND-000010," Rowan Relay 10 ",24 V,27000 mA,"8,5 cm",31 mm,28 mm,IP54," Stainless Steel ",pcs,," live ","552,70 EUR"
+IND-000011," Alder Terminal Block 11 ",120 V,39 A,46 mm,32 mm,40 mm," IP65 "," polyamide ",pcs,,ACTIVE,632.07 EUR
+" ind-000012 "," Birch Connector 12 ","0,120 kV",1 A,"11,9 cm","3,0 cm","2,0 cm",ip20," Tinned Copper ",piece,Conn," live ","308,08 EUR"
+IND-000013," Cedar Power Supply 13 ",1000 V,23 A,28 mm,177 mm,167 mm,IP54,aluminium,ea,,ACTIVE,206.69 EUR
+IND-000014," Elm Cable 14 ",400 V,27 A,"11,8 cm",132 mm,140 mm," IP65 "," PVC ",metre,," live ","770,73 EUR"
+IND-000015," Rowan Relay 15 ","1,000 kV",30000 mA,82 mm,"2,9 cm",144 mm,ip20," Stainless Steel ",pcs,Relay,ACTIVE,362.57 EUR
+" ind-000016 "," Alder Terminal Block 16 ",690 V,78 A,"4,0 cm",61 mm,"3,3 cm",IP54," polyamide ",pcs,," live ","175,66 EUR"
+IND-000017," Birch Connector 17 ",690 V,30 A,98 mm,93 mm,34 mm," IP65 "," Tinned Copper ",piece,,ACTIVE,71.07 EUR
+IND-000018," Cedar Power Supply 18 ","0,120 kV",17 A,"1,2 cm","3,3 cm",169 mm,ip20,aluminium,ea,PSU," live ","316,28 EUR"
+IND-000019," Elm Cable 19 & Mount ",230 V,30 A,37 mm,177 mm,125 mm,IP54," PVC ",metre,,ACTIVE,442.37 EUR
+" ind-000020 "," Rowan Relay 20 ",400 V,4000 mA,"2,9 cm",157 mm,"14,0 cm"," IP65 "," Stainless Steel ",pcs,," live ","813,66 EUR"
+IND-000021," Alder Terminal Block 21 ","1,000 kV",76 A,87 mm,"19,1 cm",20 mm,ip20," polyamide ",pcs,TB,ACTIVE,896.97 EUR
+IND-000022," Birch Connector 22 ",48 V,24 A,"10,3 cm",135 mm,46 mm,IP54," Tinned Copper ",piece,," live ","260,31 EUR"
+IND-000023," Cedar Power Supply 23 ",1000 V,42 A,80 mm,66 mm,147 mm," IP65 ",aluminium,ea,,ACTIVE,459.83 EUR
+" ind-000024 "," Elm Cable 24 ","0,230 kV",51 A,"9,5 cm","19,6 cm","7,5 cm",ip20," PVC ",metre,Cable," live ","758,63 EUR"
+IND-000025," Rowan Relay 25 ",230 V,4000 mA,56 mm,39 mm,125 mm,IP54," Stainless Steel ",pcs,,ACTIVE,255.17 EUR
+IND-000026," Alder Terminal Block 26 ",120 V,4 A,"5,8 cm",13 mm,47 mm," IP65 "," polyamide ",pcs,," live ","818,39 EUR"
+IND-000027," Birch Connector 27 ","0,400 kV",29 A,74 mm,"21,7 cm",21 mm,ip20," Tinned Copper ",piece,Conn,ACTIVE,743.58 EUR
+" ind-000028 "," Cedar Power Supply 28 ",690 V,44 A,"7,4 cm",184 mm,"7,1 cm",IP54,aluminium,ea,," live ","285,29 EUR"
+IND-000029," Elm Cable 29 ",400 V,75 A,73 mm,84 mm,46 mm," IP65 "," PVC ",metre,,ACTIVE,629.78 EUR
+IND-000030," Rowan Relay 30 ","0,120 kV",49000 mA,"11,3 cm","12,3 cm",152 mm,ip20," Stainless Steel ",pcs,Relay," live ","477,79 EUR"
+IND-000031," Alder Terminal Block 31 ",230 V,57 A,83 mm,159 mm,114 mm,IP54," polyamide ",pcs,,ACTIVE,10.12 EUR
+" ind-000032 "," Birch Connector 32 ",120 V,17 A,"9,9 cm",147 mm,"16,4 cm"," IP65 "," Tinned Copper ",piece,," live ","640,41 EUR"
+IND-000033," Cedar Power Supply 33 ","0,024 kV",72 A,44 mm,"13,9 cm",67 mm,ip20,aluminium,ea,PSU,ACTIVE,800.49 EUR
+IND-000034," Elm Cable 34 ",230 V,67 A,"7,0 cm",186 mm,91 mm,IP54," PVC ",metre,," live ","851,11 EUR"
+IND-000035," Rowan Relay 35 ",1000 V,15000 mA,27 mm,81 mm,50 mm," IP65 "," Stainless Steel ",pcs,,ACTIVE,563.72 EUR
+" ind-000036 "," Alder Terminal Block 36 ","0,230 kV",42 A,"4,9 cm","12,6 cm","6,1 cm",ip20," polyamide ",pcs,TB," live ","458,70 EUR"
+IND-000037," Birch Connector 37 ",690 V,31 A,28 mm,81 mm,50 mm,IP54," Tinned Copper ",piece,,ACTIVE,152.74 EUR
+IND-000038," Cedar Power Supply 38 & Mount ",690 V,32 A,"1,5 cm",21 mm,145 mm," IP65 ",aluminium,ea,," live ","252,71 EUR"
+IND-000039," Elm Cable 39 ","0,400 kV",28 A,75 mm,"2,9 cm",167 mm,ip20," PVC ",metre,Cable,ACTIVE,763.76 EUR
+" ind-000040 "," Rowan Relay 40 ",48 V,24000 mA,"11,0 cm",214 mm,"11,4 cm",IP54," Stainless Steel ",pcs,," live ","819,08 EUR"
+IND-000041," Alder Terminal Block 41 ",400 V,32 A,33 mm,13 mm,169 mm," IP65 "," polyamide ",pcs,,ACTIVE,313.06 EUR
+IND-000042," Birch Connector 42 ","0,024 kV",25 A,"8,8 cm","17,2 cm",102 mm,ip20," Tinned Copper ",piece,Conn," live ","616,52 EUR"
+IND-000043," Cedar Power Supply 43 ",48 V,70 A,89 mm,36 mm,175 mm,IP54,aluminium,ea,,ACTIVE,288.19 EUR
+" ind-000044 "," Elm Cable 44 ",48 V,33 A,"11,3 cm",139 mm,"16,4 cm"," IP65 "," PVC ",metre,," live ","319,29 EUR"
+IND-000045," Rowan Relay 45 ","0,024 kV",27000 mA,69 mm,"16,8 cm",58 mm,ip20," Stainless Steel ",pcs,Relay,ACTIVE,440.12 EUR
+IND-000046," Alder Terminal Block 46 ",400 V,57 A,"8,8 cm",44 mm,169 mm,IP54," polyamide ",pcs,," live ","22,86 EUR"
+IND-000047," Birch Connector 47 ",230 V,27 A,79 mm,103 mm,168 mm," IP65 "," Tinned Copper ",piece,,ACTIVE,369.32 EUR
+" ind-000048 "," Cedar Power Supply 48 ","0,230 kV",47 A,"10,0 cm","2,9 cm","12,5 cm",ip20,aluminium,ea,PSU," live ","469,84 EUR"
+IND-000049," Elm Cable 49 ",1000 V,19 A,50 mm,61 mm,129 mm,IP54," PVC ",metre,,ACTIVE,464.72 EUR
+IND-000050," Rowan Relay 50 ",120 V,53000 mA,"1,5 cm",56 mm,120 mm," IP65 "," Stainless Steel ",pcs,," live ","475,04 EUR"
+IND-000051," Alder Terminal Block 51 ","0,048 kV",40 A,107 mm,"5,9 cm",177 mm,ip20," polyamide ",pcs,TB,ACTIVE,134.52 EUR
+" ind-000052 "," Birch Connector 52 ",400 V,50 A,"3,8 cm",126 mm,"7,6 cm",IP54," Tinned Copper ",piece,," live ","150,08 EUR"
+IND-000053," Cedar Power Supply 53 ",24 V,40 A,118 mm,218 mm,107 mm," IP65 ",aluminium,ea,,ACTIVE,337.55 EUR
+IND-000054," Elm Cable 54 ","0,230 kV",24 A,"6,8 cm","11,6 cm",102 mm,ip20," PVC ",metre,Cable," live ","781,72 EUR"
+IND-000055," Rowan Relay 55 ",400 V,10000 mA,54 mm,165 mm,166 mm,IP54," Stainless Steel ",pcs,,ACTIVE,700.00 EUR
+" ind-000056 "," Alder Terminal Block 56 ",1000 V,22 A,"5,7 cm",115 mm,"15,8 cm"," IP65 "," polyamide ",pcs,," live ","228,71 EUR"
+IND-000057," Birch Connector 57 & Mount ","0,400 kV",70 A,61 mm,"2,9 cm",167 mm,ip20," Tinned Copper ",piece,Conn,ACTIVE,58.70 EUR
+IND-000058," Cedar Power Supply 58 ",690 V,57 A,"6,7 cm",149 mm,127 mm,IP54,aluminium,ea,," live ","382,87 EUR"
+IND-000059," Elm Cable 59 ",690 V,65 A,96 mm,111 mm,147 mm," IP65 "," PVC ",metre,,ACTIVE,844.84 EUR
+" ind-000060 "," Rowan Relay 60 ","0,120 kV",60000 mA,"5,6 cm","21,1 cm","9,2 cm",ip20," Stainless Steel ",pcs,Relay," live ","509,63 EUR"
+IND-000061," Alder Terminal Block 61 ",48 V,9 A,71 mm,57 mm,88 mm,IP54," polyamide ",pcs,,ACTIVE,586.56 EUR
+IND-000062," Birch Connector 62 ",120 V,20 A,"7,0 cm",52 mm,121 mm," IP65 "," Tinned Copper ",piece,," live ","636,75 EUR"
+IND-000063," Cedar Power Supply 63 ","0,024 kV",70 A,105 mm,"1,8 cm",119 mm,ip20,aluminium,ea,PSU,ACTIVE,266.22 EUR
+" ind-000064 "," Elm Cable 64 ",120 V,77 A,"8,1 cm",23 mm,"13,0 cm",IP54," PVC ",metre,," live ","426,38 EUR"
+IND-000065," Rowan Relay 65 ",24 V,70000 mA,103 mm,47 mm,111 mm," IP65 "," Stainless Steel ",pcs,,ACTIVE,197.66 EUR
+IND-000066," Alder Terminal Block 66 ","1,000 kV",62 A,"6,7 cm","13,6 cm",60 mm,ip20," polyamide ",pcs,TB," live ","294,29 EUR"
+IND-000067," Birch Connector 67 ",690 V,76 A,16 mm,218 mm,25 mm,IP54," Tinned Copper ",piece,,ACTIVE,826.73 EUR
+" ind-000068 "," Cedar Power Supply 68 ",48 V,45 A,"7,8 cm",40 mm,"1,3 cm"," IP65 ",aluminium,ea,," live ","84,79 EUR"
+IND-000069," Elm Cable 69 ","0,400 kV",41 A,13 mm,"14,9 cm",51 mm,ip20," PVC ",metre,Cable,ACTIVE,468.25 EUR
+IND-000070," Rowan Relay 70 ",48 V,17000 mA,"11,8 cm",128 mm,17 mm,IP54," Stainless Steel ",pcs,," live ","360,40 EUR"
+IND-000071," Alder Terminal Block 71 ",48 V,55 A,90 mm,197 mm,44 mm," IP65 "," polyamide ",pcs,,ACTIVE,523.90 EUR
+" ind-000072 "," Birch Connector 72 ","0,690 kV",69 A,"11,4 cm","3,7 cm","8,3 cm",ip20," Tinned Copper ",piece,Conn," live ","501,55 EUR"
+IND-000073," Cedar Power Supply 73 ",120 V,18 A,77 mm,51 mm,84 mm,IP54,aluminium,ea,,ACTIVE,833.40 EUR
+IND-000074," Elm Cable 74 ",24 V,1 A,"5,4 cm",119 mm,69 mm," IP65 "," PVC ",metre,," live ","618,14 EUR"
+IND-000075," Rowan Relay 75 ","0,120 kV",21000 mA,94 mm,"2,1 cm",13 mm,ip20," Stainless Steel ",pcs,Relay,ACTIVE,383.07 EUR
+" ind-000076 "," Alder Terminal Block 76 & Mount ",230 V,36 A,"6,4 cm",172 mm,"9,3 cm",IP54," polyamide ",pcs,," live ","95,87 EUR"
+IND-000077," Birch Connector 77 ",120 V,77 A,21 mm,50 mm,130 mm," IP65 "," Tinned Copper ",piece,,ACTIVE,549.14 EUR
+IND-000078," Cedar Power Supply 78 ","0,024 kV",49 A,"4,4 cm","11,0 cm",53 mm,ip20,aluminium,ea,PSU," live ","649,67 EUR"
+IND-000079," Elm Cable 79 ",120 V,61 A,117 mm,186 mm,18 mm,IP54," PVC ",metre,,ACTIVE,107.09 EUR
+" ind-000080 "," Rowan Relay 80 ",1000 V,26000 mA,"6,9 cm",109 mm,"15,1 cm"," IP65 "," Stainless Steel ",pcs,," live ","9,47 EUR"
+IND-000081," Alder Terminal Block 81 ","0,690 kV",20 A,118 mm,"17,2 cm",121 mm,ip20," polyamide ",pcs,TB,ACTIVE,546.68 EUR
+IND-000082," Birch Connector 82 ",120 V,7 A,"7,3 cm",102 mm,170 mm,IP54," Tinned Copper ",piece,," live ","836,99 EUR"
+IND-000083," Cedar Power Supply 83 ",400 V,71 A,30 mm,122 mm,164 mm," IP65 ",aluminium,ea,,ACTIVE,189.20 EUR
+" ind-000084 "," Elm Cable 84 ","0,230 kV",32 A,"8,8 cm","10,6 cm","7,7 cm",ip20," PVC ",metre,Cable," live ","29,53 EUR"
+IND-000085," Rowan Relay 85 ",400 V,11000 mA,56 mm,80 mm,103 mm,IP54," Stainless Steel ",pcs,,ACTIVE,264.44 EUR
+IND-000086," Alder Terminal Block 86 ",24 V,18 A,"5,4 cm",99 mm,166 mm," IP65 "," polyamide ",pcs,," live ","270,08 EUR"
+IND-000087," Birch Connector 87 ","0,230 kV",60 A,118 mm,"5,8 cm",125 mm,ip20," Tinned Copper ",piece,Conn,ACTIVE,290.18 EUR
+" ind-000088 "," Cedar Power Supply 88 ",230 V,76 A,"1,2 cm",74 mm,"11,8 cm",IP54,aluminium,ea,," live ","571,82 EUR"
+IND-000089," Elm Cable 89 ",120 V,42 A,93 mm,123 mm,91 mm," IP65 "," PVC ",metre,,ACTIVE,511.02 EUR
+IND-000090," Rowan Relay 90 ","0,690 kV",24000 mA,"11,8 cm","4,4 cm",115 mm,ip20," Stainless Steel ",pcs,Relay," live ","516,72 EUR"
+IND-000091," Alder Terminal Block 91 ",400 V,75 A,107 mm,66 mm,113 mm,IP54," polyamide ",pcs,,ACTIVE,391.77 EUR
+" ind-000092 "," Birch Connector 92 ",230 V,8 A,"3,9 cm",66 mm,"17,9 cm"," IP65 "," Tinned Copper ",piece,," live ","143,75 EUR"
+IND-000093," Cedar Power Supply 93 ","0,230 kV",12 A,18 mm,"17,6 cm",166 mm,ip20,aluminium,ea,PSU,ACTIVE,743.26 EUR
+IND-000094," Elm Cable 94 ",120 V,76 A,"6,1 cm",182 mm,49 mm,IP54," PVC ",metre,," live ","40,82 EUR"
+IND-000095," Rowan Relay 95 & Mount ",48 V,30000 mA,100 mm,205 mm,79 mm," IP65 "," Stainless Steel ",pcs,,ACTIVE,417.50 EUR
+" ind-000096 "," Alder Terminal Block 96 ","0,400 kV",37 A,"6,4 cm","17,1 cm","14,3 cm",ip20," polyamide ",pcs,TB," live ","380,02 EUR"
+IND-000097," Birch Connector 97 ",120 V,74 A,83 mm,82 mm,148 mm,IP54," Tinned Copper ",piece,,ACTIVE,59.82 EUR
+IND-000098," Cedar Power Supply 98 ",230 V,53 A,"6,6 cm",13 mm,72 mm," IP65 ",aluminium,ea,," live ","100,07 EUR"
+IND-000099," Elm Cable 99 ","0,400 kV",47 A,53 mm,"20,0 cm",71 mm,ip20," PVC ",metre,Cable,ACTIVE,803.95 EUR
+" ind-000100 "," Rowan Relay 100 ",1000 V,76000 mA,"11,6 cm",175 mm,"9,5 cm",IP54," Stainless Steel ",pcs,," live ","482,87 EUR"
+IND-000101," Alder Terminal Block 101 ",230 V,13 A,81 mm,181 mm,18 mm," IP65 "," polyamide ",pcs,,ACTIVE,101.64 EUR
+IND-000102," Birch Connector 102 ","0,230 kV",1 A,"1,2 cm","7,6 cm",32 mm,ip20," Tinned Copper ",piece,Conn," live ","443,30 EUR"
+IND-000103," Cedar Power Supply 103 ",120 V,38 A,98 mm,111 mm,84 mm,IP54,aluminium,ea,,ACTIVE,380.25 EUR
+" ind-000104 "," Elm Cable 104 ",400 V,35 A,"6,7 cm",44 mm,"9,0 cm"," IP65 "," PVC ",metre,," live ","740,31 EUR"
+IND-000105," Rowan Relay 105 ","1,000 kV",45000 mA,50 mm,"19,3 cm",48 mm,ip20," Stainless Steel ",pcs,Relay,ACTIVE,125.29 EUR
+IND-000106," Alder Terminal Block 106 ",230 V,63 A,"3,9 cm",64 mm,23 mm,IP54," polyamide ",pcs,," live ","448,24 EUR"
+IND-000107," Birch Connector 107 ",120 V,37 A,48 mm,115 mm,114 mm," IP65 "," Tinned Copper ",piece,,ACTIVE,754.36 EUR
+" ind-000108 "," Cedar Power Supply 108 ","0,024 kV",18 A,"5,1 cm","14,5 cm","16,0 cm",ip20,aluminium,ea,PSU," live ","172,62 EUR"
+IND-000109," Elm Cable 109 ",400 V,53 A,117 mm,47 mm,62 mm,IP54," PVC ",metre,,ACTIVE,790.67 EUR
+IND-000110," Rowan Relay 110 ",24 V,6000 mA,"11,5 cm",73 mm,162 mm," IP65 "," Stainless Steel ",pcs,," live ","470,30 EUR"
+IND-000111," Alder Terminal Block 111 ","0,400 kV",48 A,49 mm,"15,1 cm",167 mm,ip20," polyamide ",pcs,TB,ACTIVE,374.52 EUR
+" ind-000112 "," Birch Connector 112 ",48 V,23 A,"6,6 cm",205 mm,"3,0 cm",IP54," Tinned Copper ",piece,," live ","289,19 EUR"
+IND-000113," Cedar Power Supply 113 ",120 V,67 A,97 mm,107 mm,138 mm," IP65 ",aluminium,ea,,ACTIVE,609.87 EUR
+IND-000114," Elm Cable 114 & Mount ","0,690 kV",41 A,"7,7 cm","21,8 cm",128 mm,ip20," PVC ",metre,Cable," live ","855,48 EUR"
+IND-000115," Rowan Relay 115 ",690 V,79000 mA,47 mm,46 mm,93 mm,IP54," Stainless Steel ",pcs,,ACTIVE,573.85 EUR
+" ind-000116 "," Alder Terminal Block 116 ",1000 V,77 A,"11,5 cm",147 mm,"7,9 cm"," IP65 "," polyamide ",pcs,," live ","821,48 EUR"
+IND-000117," Birch Connector 117 ","0,690 kV",19 A,30 mm,"12,9 cm",32 mm,ip20," Tinned Copper ",piece,Conn,ACTIVE,13.49 EUR
+IND-000118," Cedar Power Supply 118 ",230 V,40 A,"2,8 cm",21 mm,21 mm,IP54,aluminium,ea,," live ","698,27 EUR"
+IND-000119," Elm Cable 119 ",24 V,30 A,75 mm,80 mm,165 mm," IP65 "," PVC ",metre,,ACTIVE,667.41 EUR
+" ind-000120 "," Rowan Relay 120 ","0,690 kV",66000 mA,"5,5 cm","8,9 cm","2,7 cm",ip20," Stainless Steel ",pcs,Relay," live ","633,37 EUR"
+IND-000121," Alder Terminal Block 121 ",48 V,48 A,46 mm,208 mm,47 mm,IP54," polyamide ",pcs,,ACTIVE,885.81 EUR
+IND-000122," Birch Connector 122 ",230 V,73 A,"9,6 cm",192 mm,139 mm," IP65 "," Tinned Copper ",piece,," live ","372,14 EUR"
+IND-000123," Cedar Power Supply 123 ","0,120 kV",60 A,48 mm,"21,1 cm",109 mm,ip20,aluminium,ea,PSU,ACTIVE,262.94 EUR
+" ind-000124 "," Elm Cable 124 ",1000 V,27 A,"10,7 cm",133 mm,"17,9 cm",IP54," PVC ",metre,," live ","259,15 EUR"
+IND-000125," Rowan Relay 125 ",1000 V,24000 mA,43 mm,27 mm,88 mm," IP65 "," Stainless Steel ",pcs,,ACTIVE,679.81 EUR
+IND-000126," Alder Terminal Block 126 ","0,400 kV",69 A,"7,9 cm","13,1 cm",146 mm,ip20," polyamide ",pcs,TB," live ","636,08 EUR"
+IND-000127," Birch Connector 127 ",120 V,16 A,20 mm,66 mm,41 mm,IP54," Tinned Copper ",piece,,ACTIVE,143.76 EUR
+" ind-000128 "," Cedar Power Supply 128 ",690 V,16 A,"9,9 cm",47 mm,"8,9 cm"," IP65 ",aluminium,ea,," live ","730,44 EUR"
+IND-000129," Elm Cable 129 ","0,120 kV",71 A,62 mm,"17,9 cm",73 mm,ip20," PVC ",metre,Cable,ACTIVE,6.99 EUR
+IND-000130," Rowan Relay 130 ",48 V,63000 mA,"9,6 cm",72 mm,64 mm,IP54," Stainless Steel ",pcs,," live ","158,67 EUR"
+IND-000131," Alder Terminal Block 131 ",400 V,50 A,29 mm,58 mm,179 mm," IP65 "," polyamide ",pcs,,ACTIVE,213.06 EUR
+" ind-000132 "," Birch Connector 132 ","0,230 kV",13 A,"5,1 cm","19,4 cm","17,8 cm",ip20," Tinned Copper ",piece,Conn," live ","884,70 EUR"
+IND-000133," Cedar Power Supply 133 & Mount ",400 V,77 A,84 mm,31 mm,125 mm,IP54,aluminium,ea,,ACTIVE,871.98 EUR
+IND-000134," Elm Cable 134 ",1000 V,47 A,"4,1 cm",74 mm,39 mm," IP65 "," PVC ",metre,," live ","645,09 EUR"
+IND-000135," Rowan Relay 135 ","0,048 kV",43000 mA,68 mm,"15,3 cm",46 mm,ip20," Stainless Steel ",pcs,Relay,ACTIVE,790.83 EUR
+" ind-000136 "," Alder Terminal Block 136 ",24 V,61 A,"7,3 cm",12 mm,"13,4 cm",IP54," polyamide ",pcs,," live ","636,00 EUR"
+IND-000137," Birch Connector 137 ",120 V,13 A,105 mm,21 mm,92 mm," IP65 "," Tinned Copper ",piece,,ACTIVE,96.59 EUR
+IND-000138," Cedar Power Supply 138 ","0,230 kV",28 A,"9,4 cm","8,7 cm",53 mm,ip20,aluminium,ea,PSU," live ","31,34 EUR"
+IND-000139," Elm Cable 139 ",120 V,9 A,28 mm,206 mm,125 mm,IP54," PVC ",metre,,ACTIVE,679.81 EUR
+" ind-000140 "," Rowan Relay 140 ",690 V,30000 mA,"5,9 cm",218 mm,"7,7 cm"," IP65 "," Stainless Steel ",pcs,," live ","153,93 EUR"
+IND-000141," Alder Terminal Block 141 ","0,230 kV",37 A,53 mm,"17,5 cm",95 mm,ip20," polyamide ",pcs,TB,ACTIVE,789.15 EUR
+IND-000142," Birch Connector 142 ",690 V,40 A,"9,6 cm",191 mm,133 mm,IP54," Tinned Copper ",piece,," live ","715,13 EUR"
+IND-000143," Cedar Power Supply 143 ",1000 V,20 A,34 mm,172 mm,127 mm," IP65 ",aluminium,ea,,ACTIVE,87.75 EUR
+" ind-000144 "," Elm Cable 144 ","1,000 kV",14 A,"9,1 cm","4,5 cm","13,1 cm",ip20," PVC ",metre,Cable," live ","800,81 EUR"
+IND-000145," Rowan Relay 145 ",230 V,19000 mA,84 mm,168 mm,27 mm,IP54," Stainless Steel ",pcs,,ACTIVE,537.81 EUR
+IND-000146," Alder Terminal Block 146 ",230 V,10 A,"11,6 cm",20 mm,146 mm," IP65 "," polyamide ",pcs,," live ","681,59 EUR"
+IND-000147," Birch Connector 147 ","0,400 kV",43 A,65 mm,"10,4 cm",117 mm,ip20," Tinned Copper ",piece,Conn,ACTIVE,629.27 EUR
+" ind-000148 "," Cedar Power Supply 148 ",400 V,35 A,"3,0 cm",24 mm,"6,0 cm",IP54,aluminium,ea,," live ","86,70 EUR"
+IND-000149," Elm Cable 149 ",48 V,30 A,84 mm,156 mm,69 mm," IP65 "," PVC ",metre,,ACTIVE,407.94 EUR
+IND-000150," Rowan Relay 150 ","0,690 kV",27000 mA,"11,6 cm","2,4 cm",116 mm,ip20," Stainless Steel ",pcs,Relay," live ","380,54 EUR"
+IND-000151," Alder Terminal Block 151 ",48 V,76 A,82 mm,22 mm,97 mm,IP54," polyamide ",pcs,,ACTIVE,104.21 EUR
+" ind-000152 "," Birch Connector 152 & Mount ",690 V,74 A,"6,3 cm",16 mm,"16,6 cm"," IP65 "," Tinned Copper ",piece,," live ","598,66 EUR"
+IND-000153," Cedar Power Supply 153 ","0,400 kV",52 A,85 mm,"10,8 cm",171 mm,ip20,aluminium,ea,PSU,ACTIVE,608.77 EUR
+IND-000154," Elm Cable 154 ",690 V,77 A,"8,5 cm",82 mm,103 mm,IP54," PVC ",metre,," live ","34,69 EUR"
+IND-000155," Rowan Relay 155 ",400 V,20000 mA,87 mm,97 mm,15 mm," IP65 "," Stainless Steel ",pcs,,ACTIVE,472.63 EUR
+" ind-000156 "," Alder Terminal Block 156 ","0,400 kV",23 A,"3,5 cm","15,6 cm","2,8 cm",ip20," polyamide ",pcs,TB," live ","284,30 EUR"
+IND-000157," Birch Connector 157 ",24 V,64 A,97 mm,200 mm,112 mm,IP54," Tinned Copper ",piece,,ACTIVE,412.83 EUR
+IND-000158," Cedar Power Supply 158 ",400 V,65 A,"6,4 cm",106 mm,121 mm," IP65 ",aluminium,ea,," live ","384,77 EUR"
+IND-000159," Elm Cable 159 ","0,120 kV",33 A,18 mm,"11,3 cm",110 mm,ip20," PVC ",metre,Cable,ACTIVE,403.80 EUR
+" ind-000160 "," Rowan Relay 160 ",48 V,18000 mA,"7,9 cm",115 mm,"3,2 cm",IP54," Stainless Steel ",pcs,," live ","490,42 EUR"
+IND-000161," Alder Terminal Block 161 ",24 V,76 A,20 mm,36 mm,62 mm," IP65 "," polyamide ",pcs,,ACTIVE,470.05 EUR
+IND-000162," Birch Connector 162 ","0,120 kV",32 A,"2,8 cm","4,1 cm",83 mm,ip20," Tinned Copper ",piece,Conn," live ","493,32 EUR"
+IND-000163," Cedar Power Supply 163 ",690 V,3 A,74 mm,146 mm,22 mm,IP54,aluminium,ea,,ACTIVE,316.90 EUR
+" ind-000164 "," Elm Cable 164 ",120 V,29 A,"11,8 cm",177 mm,"4,7 cm"," IP65 "," PVC ",metre,," live ","674,84 EUR"
+IND-000165," Rowan Relay 165 ","0,400 kV",78000 mA,48 mm,"5,3 cm",100 mm,ip20," Stainless Steel ",pcs,Relay,ACTIVE,219.97 EUR
+IND-000166," Alder Terminal Block 166 ",400 V,42 A,"3,2 cm",171 mm,78 mm,IP54," polyamide ",pcs,," live ","637,99 EUR"
+IND-000167," Birch Connector 167 ",1000 V,51 A,63 mm,196 mm,74 mm," IP65 "," Tinned Copper ",piece,,ACTIVE,338.72 EUR
+" ind-000168 "," Cedar Power Supply 168 ","0,230 kV",10 A,"9,1 cm","19,5 cm","13,6 cm",ip20,aluminium,ea,PSU," live ","412,68 EUR"
+IND-000169," Elm Cable 169 ",400 V,54 A,41 mm,97 mm,129 mm,IP54," PVC ",metre,,ACTIVE,138.89 EUR
+IND-000170," Rowan Relay 170 ",24 V,39000 mA,"3,2 cm",93 mm,70 mm," IP65 "," Stainless Steel ",pcs,," live ","420,56 EUR"
+IND-000001," Alder Terminal Block 1 ",24 V,45 A,55 mm,215 mm,152 mm,IP54," polyamide ",pcs,,ACTIVE,325.38 EUR
+invalid-article," Alder Terminal Block 1 ",24 V,45 A,55 mm,215 mm,152 mm,IP54," polyamide ",pcs,,ACTIVE,325.38 EUR
+IND-000001," Alder Terminal Block 1 ",24 V,unknown,55 mm,215 mm,152 mm,IP54," polyamide ",pcs,,ACTIVE,325.38 EUR
+IND-000001," Alder Terminal Block 1 ","9,8 kV",45 A,55 mm,215 mm,152 mm,IP54," polyamide ",pcs,,ACTIVE,325.38 EUR
+IND-000001," Alder Terminal Block 1 ",24 V,45 A,55 mm,215 mm,152 mm,IP54," polyamide ",pcs,,unpublished,325.38 EUR

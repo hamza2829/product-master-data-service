@@ -1,0 +1,13 @@
+article_no,product_name,voltage,current,width_mm,height_mm,depth_mm,ip_rating,housing,uom,family,lifecycle,price_eur
+IND-000181,,,84 A,"11,0 cm",,,,,,,phase out,"1535,90 EUR"
+IND-000182,,,34 A,,,,,,,,,2279.78 EUR
+IND-000183,,,82 A,"11,3 cm",,,,,,,,"1837,47 EUR"
+IND-000184,,,58 A,,,,,,,,,2074.17 EUR
+IND-000185,,,34 A,"5,2 cm",,,,,,,phase out,"1299,65 EUR"
+IND-000186,,,16 A,,,,,,,,,1119.10 EUR
+IND-000187,,,10 A,"12,2 cm",,,,,,,,"1064,07 EUR"
+IND-000188,,,54 A,,,,,,,,,1223.67 EUR
+IND-000189,,,50 A,"5,6 cm",,,,,,,phase out,"1333,24 EUR"
+IND-000190,,,31 A,,,,,,,,,1861.12 EUR
+IND-000191,,,73 A,"11,5 cm",,,,,,,,"2329,11 EUR"
+IND-000192,,,43 A,,,,,,,,,2343.77 EUR

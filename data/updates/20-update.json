@@ -1,0 +1,15 @@
+[
+  {"sku":"IND-000229","rated_current":"41 A","width":"7,6 cm","status":"phase out","unitPrice":"1567,90 EUR"},
+  {"sku":"IND-000230","rated_current":"68 A","unitPrice":"1306.52 EUR"},
+  {"sku":"IND-000231","rated_current":"41 A","width":"8,0 cm","unitPrice":"1064,70 EUR"},
+  {"sku":"IND-000232","rated_current":"67 A","unitPrice":"2234.42 EUR"},
+  {"sku":"IND-000233","rated_current":"83 A","width":"7,3 cm","status":"phase out","unitPrice":"1022,63 EUR"},
+  {"sku":"IND-000234","rated_current":"30 A","unitPrice":"1810.98 EUR"},
+  {"sku":"IND-000235","rated_current":"66 A","width":"12,1 cm","unitPrice":"1035,80 EUR"},
+  {"sku":"IND-000236","rated_current":"37 A","unitPrice":"1915.49 EUR"},
+  {"sku":"IND-000237","rated_current":"28 A","width":"8,4 cm","status":"phase out","unitPrice":"1773,86 EUR"},
+  {"sku":"IND-000238","rated_current":"59 A","unitPrice":"2180.63 EUR"},
+  {"sku":"IND-000239","rated_current":"71 A","width":"10,5 cm","unitPrice":"2498,19 EUR"},
+  {"sku":"IND-000240","rated_current":"48 A","unitPrice":"2131.18 EUR"},
+  {"sku":"IND-000500"}
+]

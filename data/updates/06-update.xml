@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+  <product><partCode>IND-000061</partCode><I>34 A</I><W>10,1 cm</W><lifeCycleState>phase out</lifeCycleState><price>2300,82 EUR</price></product>
+  <product><partCode>IND-000062</partCode><I>65 A</I><price>1360.16 EUR</price></product>
+  <product><partCode>IND-000063</partCode><I>73 A</I><W>9,6 cm</W><price>1100,44 EUR</price></product>
+  <product><partCode>IND-000064</partCode><I>83 A</I><price>1307.25 EUR</price></product>
+  <product><partCode>IND-000065</partCode><I>78 A</I><W>10,5 cm</W><lifeCycleState>phase out</lifeCycleState><price>1879,73 EUR</price></product>
+  <product><partCode>IND-000066</partCode><I>78 A</I><price>1259.12 EUR</price></product>
+  <product><partCode>IND-000067</partCode><I>65 A</I><W>6,8 cm</W><price>2042,70 EUR</price></product>
+  <product><partCode>IND-000068</partCode><I>22 A</I><price>1612.11 EUR</price></product>
+  <product><partCode>IND-000069</partCode><I>75 A</I><W>12,2 cm</W><lifeCycleState>phase out</lifeCycleState><price>2080,45 EUR</price></product>
+  <product><partCode>IND-000070</partCode><I>23 A</I><price>1627.07 EUR</price></product>
+  <product><partCode>IND-000071</partCode><I>72 A</I><W>6,1 cm</W><price>1014,48 EUR</price></product>
+  <product><partCode>IND-000072</partCode><I>59 A</I><price>1554.60 EUR</price></product>
+</products>
