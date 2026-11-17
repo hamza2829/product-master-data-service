@@ -42,9 +42,7 @@ jobs:
       - name: Generate the synthetic inputs
         run: |
           mvn -B -ntp -Pci exec:java@generate-data
-          if [[ -d data ]]; then
-            diff -r data target/demo-data
-          fi
+          diff -r data target/demo-data
       - name: Save the exact inputs used by this run
         uses: actions/upload-artifact@v6
         with:
