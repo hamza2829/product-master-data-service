@@ -1,0 +1,51 @@
+spring:
+  application:
+    name: product-master-data-service
+  config:
+    import: "classpath:rules.yml,optional:file:./rules-override.yml"
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://127.0.0.1:5432/catalog}
+    username: ${DATABASE_USER:catalog}
+    password: ${DATABASE_PASSWORD:}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 3MB
+
+server:
+  address: ${SERVER_ADDRESS:127.0.0.1}
+
+logging:
+  structured:
+    format:
+      console: logstash
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,prometheus
+  endpoint:
+    health:
+      probes:
+        enabled: true
+      group:
+        readiness:
+          include: readinessState,db
+  tracing:
+    sampling:
+      probability: 1.0
+  metrics:
+    distribution:
+      percentiles-histogram:
+        "[catalog.import.duration]": true
+        "[catalog.rule.execution]": true
+
+catalog:
+  imports:
+    batch-size: 50
+    max-records: 10000
