@@ -100,9 +100,7 @@ public class SourceReader {
             return SourceRecord.invalid("A JSON product row must be an object");
         }
         Map<String, String> fields = new HashMap<>();
-        var entries = item.fields();
-        while (entries.hasNext()) {
-            var field = entries.next();
+        for (var field : item.properties()) {
             JsonNode value = field.getValue();
             if (value.isContainerNode()) {
                 return SourceRecord.invalid("JSON product fields must be scalar");

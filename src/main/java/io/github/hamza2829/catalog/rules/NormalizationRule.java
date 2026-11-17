@@ -21,7 +21,7 @@ public class NormalizationRule implements ProductRule {
 
     private static final Pattern NON_ALPHANUMERIC = Pattern.compile("[^a-z0-9]");
     private static final ProductData EMPTY = new ProductData(
-            null, null, null, null, null, null, null, null, null, null, null, null, List.of());
+            null, null, null, null, null, null, null, null, null, null, null, null, null, List.of());
 
     private final RuleConfiguration config;
     private final Map<String, RuleField> aliases = new HashMap<>();
